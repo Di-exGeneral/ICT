@@ -133,6 +133,13 @@
 
 ---
 
+### **2.2.** Sorting by “Age” in ascending order places the oldest person first.
+
+- True
+- False
+
+---
+
 ### 2.3. “Data dissemination” means sharing insights with others.
 
 - True
