@@ -50,6 +50,18 @@
 
 ---
 
+### 1.5. What may make a chart misleading?
+
+**a.** Truncated Y-axis
+
+**b.** Clear labels
+
+**c.** Neutral tone
+
+**d.** Text annotations
+
+---
+
 ### 1.6. What does the pseudocode step "group_by_category(data)" mean?
 
 **a.** Sorting
