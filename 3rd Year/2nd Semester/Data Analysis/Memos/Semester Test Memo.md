@@ -232,16 +232,22 @@ Suggested solution:
 
 FUNCTION GroupByHobby(students): 
     hobbyGroups = empty dictionary
+
     FOR EACH student IN students: 
         hobby = student.Hobby
+
         IF hobby NOT IN hobbyGroups: 
             hobbyGroups[hobby] = empty list
         END IF
-        ADD student.Name TO hobbyGroups[hobby] 
+
+        ADD student.Name TO hobbyGroups[hobby]
+
     END FOR
+
     FOR EACH hobby IN hobbyGroups: 
         PRINT hobby, hobbyGroups[hobby], LENGTH(hobbyGroups[hobby])
     END FOR
+
 END FUNCTION
 
 ```
@@ -271,19 +277,25 @@ Suggested solution:
 ```
 
 FUNCTION BuildSupplierMap(products):  
-    supplierProducts = empty dictionary 
+    supplierProducts = empty dictionary
+
     FOR EACH product IN products:  
-        supplier = product.Supplier 
+        supplier = product.Supplier
+
         IF supplier NOT IN supplierProducts:  
             supplierProducts[supplier] = empty list 
-        END IF 
-        ADD product.Item TO supplierProducts[supplier]  
-    END FOR 
+        END IF
+
+        ADD product.Item TO supplierProducts[supplier]
+
+    END FOR
+
     FOR EACH supplier IN supplierProducts:  
         FOR EACH item IN supplierProducts[supplier]:  
             PRINT supplier, "->", item 
         END FOR 
-    END FOR 
+    END FOR
+
 END FUNCTION  
 ```
 ---
